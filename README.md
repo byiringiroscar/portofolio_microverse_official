@@ -147,7 +147,7 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/byiringiroscar)
+- GitHub: [@githuboscar](https://github.com/byiringiroscar)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
