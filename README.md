@@ -51,9 +51,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [portofolio] <a name="about-project"></a>
 
-> is a project builded by me based on figma information provided
+
+
 
 **[Oscar portofolio]** is a project builded by me based on figma information provided
 
@@ -62,9 +62,8 @@ After you're finished please remove all the comments and instructions!
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
 
-> You can use easy step to open it.
+
 
 To get a local copy up and running, follow these steps.
 
@@ -140,10 +139,7 @@ Example:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
+\
 
 👤 **Author1**
 
@@ -158,9 +154,7 @@ Example:
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
 If you like this project contact here : ntwarioscar12@gmail.com
 
@@ -168,9 +162,7 @@ If you like this project contact here : ntwarioscar12@gmail.com
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank Microverse
 
