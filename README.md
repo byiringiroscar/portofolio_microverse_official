@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Oscar portofolio</b></h3>
+  <h3><b>Oscar portfolio</b></h3>
 
 </div>
 
@@ -45,24 +45,25 @@ After you're finished please remove all the comments and instructions!
   - [Install](#install)
   - [Usage](#usage)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
+# 📖 [Oscar portfolio] <a name="about-project"></a>
 
 
-
-
-**[Oscar portofolio]** is a project builded by me based on figma information provided
+**Oscar portfolio is project developed during day 3 in microverse which have my personal introduction and link for my social media
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
-
+## 💻 Getting Started <a name="getting-started"></a>
 
 
 To get a local copy up and running, follow these steps.
@@ -94,7 +95,7 @@ Example commands:
 
 ### Install
 
-Install this project with: cd folder_name
+Install this project with: cd my-project
 
 <!--
 Example command:
@@ -107,7 +108,7 @@ Example command:
 
 ### Usage
 
-To run the project, execute the following command: click on index.html
+To run the project by: clicking on index.html
 
 <!--
 Example command:
@@ -118,53 +119,56 @@ Example command:
 --->
 
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-
-
-<!--
-Example:
-
-```sh
-
-```
- -->
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
-\
 
-👤 **Author1**
+## 👥 Authors <a name="authors"></a>
+
+
+👤 **Oscar byiringiro**
 
 - GitHub: [@githuboscar](https://github.com/byiringiroscar)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/oscar-byiringiro-9baa8313a/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
 
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] **Add my personal project**
+- [ ] **add my contact form**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
+## ⭐️ Show your support <a name="support"></a>
 
+> Write a message to encourage readers to support your project
 
-If you like this project contact here : ntwarioscar12@gmail.com
+If you like this project please buy me coffee through to my email ntwarioscar12@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-I would like to thank Microverse
+I would like to thank microverse for their support in learning
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
