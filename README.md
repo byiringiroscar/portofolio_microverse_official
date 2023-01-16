@@ -56,7 +56,7 @@ After you're finished please remove all the comments and instructions!
 # 📖 [Oscar portfolio] <a name="about-project"></a>
 
 
-**Oscar portfolio is project developed during day 3 in microverse which have my personal introduction and link for my social media
+**Oscar portfolio** is project developed during day 3 in microverse which have my personal introduction and link for my social media
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
