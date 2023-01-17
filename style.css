@@ -22,12 +22,20 @@ ul li {
   height: 15%;
   width: 100%;
   background-color: #3c3a39;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 65px;
+  padding-right: 65px;
 }
 
-nav {
-  height: 100%;
-  width: 100%;
-  display: flex;
+.main-logo a {
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
 }
 
 .main-body {
@@ -39,55 +47,12 @@ nav {
   background-position: bottom right;
 }
 
-.left-bar {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
-  padding-left: 20px;
-  text-align: center;
-}
-
-.left-bar .time {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  text-align: center;
-  letter-spacing: -0.28px;
-  color: #fff;
-}
-
-.left-bar .name {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
-  color: #fff;
-}
-
-.right-bar {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  padding-right: 20px;
-  justify-content: space-around;
-}
-
 .container {
   position: relative;
   height: 55%;
   width: 80%;
   top: 130px;
   left: 40px;
-
-  /* overflow: hidden; */
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -124,7 +89,7 @@ nav {
   color: #fff;
 }
 
-.logo {
+.logo ul {
   display: flex;
   align-items: flex-end;
   gap: 10px;
@@ -135,14 +100,52 @@ nav {
   padding: 0;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 700px) {
   .container {
-    gap: 8px;
+    gap: 11px;
   }
 
   .container .intro {
-    font-size: 36px;
-    line-height: 32px;
+    font-size: 30px;
+    line-height: 38px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .container {
+    gap: 11px;
+    top: 110px;
+  }
+
+  .container .intro {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .container .description {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .container {
+    gap: 8px;
+    top: 80px;
+  }
+
+  .container .intro {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .container .title {
+    font-size: 15px;
+  }
+
+  .container .description {
+    font-size: 13px;
+    line-height: 18px;
   }
 }
 
@@ -160,12 +163,12 @@ nav {
 @media all and (max-width: 380px) {
   .container {
     gap: 8px;
-    top: 100px;
+    top: 50px;
     padding: 5px;
   }
 
   .container .intro {
-    font-size: 30px;
+    font-size: 28px;
     line-height: 34px;
   }
 
@@ -177,91 +180,70 @@ nav {
 @media all and (max-width: 300px) {
   .container {
     gap: 8px;
-    top: 100px;
-    padding: 5px;
-  }
-
-  .container .intro {
-    font-size: 30px;
-    line-height: 34px;
-  }
-
-  .container .description {
-    font-size: 12px;
-  }
-}
-
-@media all and (max-width: 270px) {
-  .container {
-    gap: 6px;
-    top: 90px;
-    padding: 5px;
-  }
-
-  .container .intro {
-    font-size: 28px;
-    line-height: 27px;
-  }
-
-  .container .description {
-    font-size: 12px;
-  }
-}
-
-@media all and (max-width: 220px) {
-  .container {
-    gap: 2px;
-    top: 90px;
-    padding: 5px;
-  }
-
-  .container .intro {
-    font-size: 22px;
-    line-height: 34px;
-  }
-
-  .container .title {
-    font-size: 14px;
-  }
-
-  .container .description {
-    font-size: 12px;
-    line-height: 25px;
-  }
-}
-
-@media all and (max-width: 212px) {
-  .container {
-    gap: 16px;
-    top: 70px;
+    top: 50px;
     padding: 5px;
   }
 
   .container .intro {
     font-size: 24px;
-    line-height: 25px;
+    line-height: 27px;
+  }
+
+  .container .description {
+    font-size: 13px;
+    line-height: 19px;
+  }
+}
+
+@media all and (max-width: 270px) {
+  .container {
+    gap: 2px;
+    top: 40px;
+    padding: 5px;
+  }
+
+  .container .intro {
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  .container .description {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+
+@media all and (max-width: 220px) {
+  .container {
+    gap: 1px;
+    top: 10px;
+  }
+
+  .container .intro {
+    font-size: 12px;
+    line-height: 24px;
   }
 
   .container .title {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .container .description {
     font-size: 12px;
-    line-height: 20px;
+    line-height: 15px;
   }
 }
 
-@media all and (max-width: 180px) {
+@media all and (max-width: 200px) {
   .container {
-    gap: 16px;
-    top: 70px;
+    gap: 1px;
+    top: 30px;
     padding: 1px;
   }
 
   .container .intro {
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 13px;
+    line-height: 15px;
   }
 
   .container .title {
@@ -269,7 +251,7 @@ nav {
   }
 
   .container .description {
-    font-size: 8px;
-    line-height: 20px;
+    font-size: 11px;
+    line-height: 15px;
   }
 }
