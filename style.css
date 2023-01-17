@@ -19,7 +19,7 @@ ul li {
 }
 
 .main-nav {
-  height: 15%;
+  height: 8%;
   width: 100%;
   background-color: #3c3a39;
   display: flex;
@@ -39,7 +39,7 @@ ul li {
 }
 
 .main-body {
-  height: 85%;
+  height: 95%;
   width: 100%;
   background-color: #1c1a19;
   background-image: url('./images/illustration-header-mobile.png');
@@ -103,18 +103,27 @@ ul li {
 @media all and (max-width: 700px) {
   .container {
     gap: 11px;
+    top: 170px;
   }
 
   .container .intro {
     font-size: 30px;
     line-height: 38px;
   }
+
+  .container .description {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 @media all and (max-width: 600px) {
   .container {
     gap: 11px;
-    top: 110px;
+    top: 150px;
   }
 
   .container .intro {
@@ -123,15 +132,18 @@ ul li {
   }
 
   .container .description {
-    font-size: 14px;
-    line-height: 18px;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 
 @media all and (max-width: 500px) {
   .container {
-    gap: 8px;
-    top: 80px;
+    gap: 15px;
+    top: 140px;
   }
 
   .container .intro {
@@ -144,14 +156,18 @@ ul li {
   }
 
   .container .description {
-    font-size: 13px;
-    line-height: 18px;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 
 @media all and (max-width: 400px) {
   .container {
     gap: 10px;
+    top: 150px;
   }
 
   .container .intro {
@@ -162,8 +178,8 @@ ul li {
 
 @media all and (max-width: 380px) {
   .container {
-    gap: 8px;
-    top: 50px;
+    gap: 10px;
+    top: 150px;
     padding: 5px;
   }
 
@@ -173,14 +189,18 @@ ul li {
   }
 
   .container .description {
-    font-size: 12px;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 
 @media all and (max-width: 300px) {
   .container {
     gap: 8px;
-    top: 50px;
+    top: 150px;
     padding: 5px;
   }
 
@@ -195,28 +215,10 @@ ul li {
   }
 }
 
-@media all and (max-width: 270px) {
-  .container {
-    gap: 2px;
-    top: 40px;
-    padding: 5px;
-  }
-
-  .container .intro {
-    font-size: 14px;
-    line-height: 23px;
-  }
-
-  .container .description {
-    font-size: 10px;
-    line-height: 12px;
-  }
-}
-
 @media all and (max-width: 220px) {
   .container {
-    gap: 1px;
-    top: 10px;
+    gap: 3px;
+    top: 150px;
   }
 
   .container .intro {
@@ -229,6 +231,9 @@ ul li {
   }
 
   .container .description {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
     font-size: 12px;
     line-height: 15px;
   }
@@ -236,8 +241,8 @@ ul li {
 
 @media all and (max-width: 200px) {
   .container {
-    gap: 1px;
-    top: 30px;
+    gap: 5px;
+    top: 150px;
     padding: 1px;
   }
 
