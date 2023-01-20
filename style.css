@@ -14,6 +14,8 @@ ul li {
   list-style: none;
 }
 
+/* wraper division start */
+
 .wrapper {
   height: 100vh;
 }
@@ -100,147 +102,281 @@ ul li {
   padding: 0;
 }
 
+/* wrapper section end */
 
-.recent-works{
+/* recent works section start */
+
+.recent-works {
   width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   padding-left: 60px;
   padding-right: 60px;
-
 }
-.works-title{
+
+.works-title {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding-top: 80px;
 }
-.recent-works .works-title h2{
-  font-family: 'Crete Round';
+
+.recent-works .works-title h2 {
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #1C1A19;
+  color: #1c1a19;
   text-align: center;
-
 }
-.solid-line{
+
+.solid-line {
   border: 1px solid #bbb;
   width: 100%;
   margin-top: 60px;
   margin-bottom: 60px;
 }
 
-.all-projects{
+/* recent works section end */
+
+/* all projects multi section start */
+
+.all-projects {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  padding-left: 60px;
-  padding-right: 60px;
-  
+  padding: 50px;
+  width: 100%;
+  padding-bottom: 70px;
 }
-.all-projects .single-project{
+
+.all-projects .multi-project {
   width: 100%;
   height: 738px;
-  
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 110px;
+  gap: 10px;
 }
-.project-image{
+
+.all-projects .multi-project .project-image {
+  background: url(./images/multi_project.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 337px;
+}
+
+.multi-project .project-title {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #091e42;
+}
+
+.multi-project .project-description {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+}
+
+.multi-project .project-tag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  width: 80%;
+  padding-top: 5px;
+}
+
+.multi-project .project-tag p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 20px;
+  color: #091e42;
+  background: #fff;
+  padding: 10px 12px;
+  border: 1px solid #8993a4;
+}
+
+.multi-project .project-view {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  margin-top: 8px;
+  width: 134px;
+  height: 48px;
+  background: #ff6b00;
+}
+
+.project-view a {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  width: 200px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* all projects multi section end */
+
+/* single projects start */
+
+.all-projects .single-project {
+  width: 100%;
+  height: 738px;
+}
+
+.all-projects .single-project .project-image {
   width: 100%;
   height: 85%;
   background: url('./images/project_image.png');
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  padding: 202px 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 140px;
   gap: 15px;
+  overflow: hidden;
 }
 
-.single-title{
-  font-family: 'Crete Round';
+.all-projects .single-project .project-image .single-title {
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 60px;
-  line-height: 44px;
-  color: #FFFFFF;
-  line-height: 80px;
-
+  font-size: 35px;
+  color: #fff;
+  line-height: 30px;
 }
-.single-description{
-  font-family: 'Inter';
+
+.all-projects .single-project .project-image .single-description {
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 34px;
-  color: #FFFFFF;
+  font-size: 16px;
+  color: #fff;
+  line-height: 40px;
 }
 
-.single-language{
+.all-projects .single-project .project-image .single-language {
   display: flex;
-  gap: 20px;
+  gap: 12px;
   flex-direction: row;
-  padding: 10px 12px;
-
-  
 }
 
-.single-language .one-langauge{
-  width: 146px;
-  height: 70px;
-  background: rgba(255, 255, 255, 0.24);
-  text-align: center;
-}
-.one-langauge{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.all-projects .single-project .project-image .single-language p {
   padding: 10px 12px;
   background: rgba(255, 255, 255, 0.24);
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 15px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #fff;
+  text-align: center;
 }
 
-
-
-
-.view-project{
+.single-project .view-project {
   width: 100%;
   height: 15%;
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
-.view-project p{
-  font-family: 'Inter', sans-serif;
 
+.single-project .view-project #view-project-id {
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
- 
+  color: #fff;
 }
 
+/* single project section end */
 
+/* about me section start */
+.about-me {
+  width: 100%;
+  height: 738px;
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1a19;
+  background-image: url('./images/about-me.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  justify-content: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  gap: 12px;
+}
 
+.about-me h3 {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
 
+.about-me #about-me-title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 39px;
+  color: #f4f5f7;
+}
 
+.about-me button {
+  width: 161px;
+  height: 48px;
+  background: #ff6b00;
+  border: none;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+}
 
-
-
-
+/* about me section end */
 
 @media all and (max-width: 700px) {
   .container {
@@ -402,4 +538,3 @@ ul li {
     line-height: 15px;
   }
 }
-
