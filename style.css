@@ -155,6 +155,7 @@ ul li {
   grid-template-columns: repeat(1, 1fr);
   padding-left: 24px;
   padding-right: 24px;
+  grid-gap: 24px;
 }
 
 .my-main-works .multi-project {
@@ -162,8 +163,6 @@ ul li {
   height: 738px;
   display: flex;
   flex-direction: column;
-  padding-left: 16px;
-  padding-right: 16px;
   padding-top: 80px;
   gap: 10px;
 }
@@ -206,7 +205,7 @@ ul li {
   padding-top: 5px;
 }
 
-.multi-project .project-tag p {
+.multi-project .project-tag li {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -258,7 +257,7 @@ ul li {
 .my-main-works .single-project .project-image {
   width: 100%;
   height: 85%;
-  background: url('./images/project_image.png');
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/project_image.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -344,13 +343,10 @@ ul li {
   padding-right: 24px;
   padding-top: 120px;
   gap: 12px;
+  margin-top: 120px;
 }
 
 .about-me .container {
-  /* background-image: url('./images/about-me.png');
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-position-y: 432.6px; */
   display: flex;
   justify-content: flex-start;
   min-width: 100%;
@@ -410,6 +406,7 @@ ul li {
   height: 0;
   margin-top: 201px;
   margin-right: 16px;
+  margin-bottom: 137.6px;
 }
 
 #about-my-self {
