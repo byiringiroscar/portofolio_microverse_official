@@ -291,8 +291,6 @@ ul li {
 
 .my-main-works .single-project .project-image .single-language {
   gap: 12px;
-  background-color: green;
-  float:right;
 }
 
 .my-main-works .single-project .project-image .single-language li {
@@ -304,7 +302,7 @@ ul li {
   font-size: 15px;
   line-height: 20px;
   color: #fff;
-  float: right;
+  float: left;
 }
 
 .single-project .view-project {
