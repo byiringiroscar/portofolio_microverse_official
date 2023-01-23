@@ -346,11 +346,7 @@ ul li {
   margin-top: 120px;
 }
 
-.about-me .container {
-  display: flex;
-  justify-content: flex-start;
-  min-width: 100%;
-}
+
 
 .about-me h3 {
   font-family: 'Crete Round', sans-serif;
