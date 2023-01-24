@@ -258,7 +258,8 @@ ul li {
 .my-main-works .single-project .project-image {
   width: 100%;
   height: 85%;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
@@ -496,12 +497,14 @@ ul li {
   padding-top: 2px;
   padding-bottom: 2px;
 }
+
 .input-group input:valid {
   border: 2px solid #679;
 }
-/*.input-group input:invalid{
+
+/* .input-group input:invalid{
   border: 2px dashed red;
-}*/
+} */
 
 .input-group input:focus {
   outline: 2px solid #679;
@@ -517,9 +520,9 @@ ul li {
   border: 2px solid #679;
 }
 
-/*.input-group textarea:invalid{
+/* .input-group textarea:invalid{
   border: 2px dashed red;
-}*/
+} */
 
 .input-group textarea:focus {
   outline: 2px solid #679;
