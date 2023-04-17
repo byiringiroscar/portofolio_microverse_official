@@ -84,6 +84,10 @@ Example command:
 
 Clone this repository to your desired folder:
 
+```sh
+  git clone https://github.com/byiringiroscar/portofolio_microverse_official
+```
+
 <!--
 Example commands:
 
@@ -96,6 +100,10 @@ Example commands:
 ### Install
 
 Install this project with: cd my-project
+
+```sh
+  cd portofolio_microverse_official
+```
 
 <!--
 Example command:
@@ -158,7 +166,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
 If you like this project please buy me coffee through to my email ntwarioscar12@gmail.com
 
